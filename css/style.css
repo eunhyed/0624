@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+*{
+    margin:0 auto;
+    padding:0;
+    text-decoration:none;
+    color:#000;
+    font-family: 'Dongle', sans-serif;
+    list-style:none;
+}
+
+body{
+    width:1000px;
+    position:relative;
+
+    background:#fff;
+}
+
+a{
+    display:block;
+}
+
+.logo{
+    text-align:center;
+    padding-bottom:10px;
+    background:rgb(246, 248, 234);
+    font-size:2rem;
+    line-height:0px;
+}
+
+nav{
+    position:absolute;
+    background:rgb(251, 252, 243);
+    width:100%;
+    height:280px;
+    display:none;
+}
+
+.menu li{
+    border-bottom:2px dotted rgb(242, 194, 103);
+    line-height:45px;
+    padding-left:20px;
+    font-size:25px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+#navList{
+    position:absolute;
+    background: transparent;
+    border:none;
+    font-size:2rem;
+    top:10px;
+    left:30px;
+    color:rgb(237, 169, 97);
+    font-weight:bold;
+}
+
+.content h2{
+    width:200px;
+    text-align:center;
+    font-size:40px;
+    margin:10px;
+    border-bottom:3px solid rgba(255, 211, 129, 0.416);
+    border-radius:40px;
+}
+
+.a{
+    width:1000px;
+    height:380px;
+}
+
+.a img{
+    width:500px;
+    margin-top:-10px;
+    float:right;
+    box-shadow:0px 3px 15px rgba(52, 52, 52, 0.356);
+    border-radius:60px 60px;
+}
+
+.a p{
+    width:470px;
+    margin-left:10px;
+    margin-top:50px;
+    font-size:23px;
+    line-height:25px;
+}
+
+.i{
+    background:rgb(246, 248, 234);
+    font-weight:bold;
+    text-align:justify;
+    line-height:35px;
+}
+
+.o{
+    text-align:center;
+}
+
+.b p{
+    font-size:23px;
+    padding:50px;
+}
+
+.b figure{
+    margin-left:550px;
+    margin-top:10px;
+    font-size:15px;
+    position:absolute;
+    text-align:center;
+}
+
+.c figure{
+    text-align:center;
+}
+
+.c p{
+    font-size:23px;
+    text-align:justify;
+    padding:20px;
+}
+
+.d{
+   font-size:23px;
+   text-align:center;
+   height:550px;
+   background:rgb(246, 248, 234);
+   margin-bottom:50px;
+}
+
+.d img{
+    margin-top:20px;
+    width:400px;
+    height:400px;
+    border-radius:100%;
+    margin-left:50px;
+    float:left;
+    box-shadow:1px 10px 20px rgba(0, 0, 0, 0.352) ; 
+}
+
+.d p{
+    float:right;
+    width:500px;
+    margin-top:100px;
+    margin-right:20px;
+}
+
+
+footer{
+    background:rgb(231, 221, 152);
+}
+
+.bottom{
+    padding:30px;
+    margin-left:40px;
+    text-align:justify;
+    line-height:40px;
+    font-size:23px;
+}
+
+.bottom a{
+    width:270px;
+    margin-left:0px;
+}
+
+.material-symbols-outlined {
+    color:orange;
+    position:absolute;
+    margin-left:-50px;
+    margin-top:5px;
+}
+
+q{
+    margin-left:30%;
+}
+
+
